@@ -76,9 +76,3 @@ class Deque:
             index = (self.front + i) % self.capacity
             result.append(self.data[index])
         return result
-
-    # Тест 6: Попытка добавить в полный дек
-    d.push_back(60) #  предупреждение "Warning: дек полон"
-
-if __name__ == "__main__":
-    main()
